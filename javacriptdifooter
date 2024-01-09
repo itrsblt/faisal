@@ -1,0 +1,564 @@
+<footer class="footer text-center text-muted">
+    Copyright - IT RSSR
+</footer>
+
+</div>
+
+</div>
+
+<script src="<?= base_url('dist/'); ?>js/jquery-3.7.0.js"></script>
+
+<script src="<?= base_url('assets/'); ?>library/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/app-style-switcher.js"></script>
+<script src="<?= base_url('dist/'); ?>js/feather.min.js"></script>
+<script src="<?= base_url('assets/'); ?>library/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/sidebarmenu.js"></script>
+<script src="<?= base_url('dist/'); ?>js/custom.min.js"></script>
+<script src="<?= base_url('assets/'); ?>extra-libs/c3/d3.min.js"></script>
+<script src="<?= base_url('assets/'); ?>extra-libs/c3/c3.min.js"></script>
+<!-- <script src="<?= base_url('assets/'); ?>library/chartist/dist/chartist.min.js"></script>
+<script src="<?= base_url('assets/'); ?>library/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script> -->
+<script src="<?= base_url('assets/'); ?>extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+<script src="<?= base_url('assets/'); ?>extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+<script src="<?= base_url('dist/'); ?>js/pages/dashboards/dashboard1.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/jquery.dataTables.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/dataTables.rowReorder.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/dataTables.responsive.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/dataTables.rowReorder.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/sweetalert2.all.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/sweetalert2.js"></script>
+<script src="<?= base_url('dist/'); ?>js/dataTables.buttons.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/jszip.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/pdfmake.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/vfs_fonts.js"></script>
+<script src="<?= base_url('dist/'); ?>js/buttons.html5.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/buttons.print.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/select2.min.js"></script>
+<script src="<?= base_url('dist/'); ?>js/bootstrap-datepicker.min.js"></script>
+<script>
+    new DataTable('#example', {
+        responsive: true
+
+    });
+</script>
+
+<script>
+    new DataTable('#example3', {
+
+
+    });
+</script>
+<script>
+    new DataTable('#examplebaru');
+</script>
+<script>
+    $(".js-example-placeholder-single").select2({
+        placeholder: "Pilih Kode Jenis Barang",
+        allowClear: true
+    });
+</script>
+
+<script>
+    $(".js-example-placeholder-singlee").select2({
+        placeholder: "Rekening Asal",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singlebk").select2({
+        placeholder: "Bukti Penerimaan",
+        allowClear: true
+    });
+</script>
+
+<script>
+    $(".js-example-placeholder-singleeivt").select2({
+        placeholder: "Pilih Einventory",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singlesk").select2({
+        placeholder: "SK Bendahara",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singlepc").select2({
+        placeholder: "Rekening Pencatatan",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singlerpp").select2({
+        placeholder: "Rekening",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singlepeg").select2({
+        placeholder: "Pegawai",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singlefkm").select2({
+        placeholder: "Faktur Masuk",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleep").select2({
+        placeholder: "Perolehan",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleeps").select2({
+        placeholder: "Sumber Dana",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleepg").select2({
+        placeholder: "Gudang",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleepk").select2({
+        placeholder: "Kegiatan",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleesp").select2({
+        placeholder: "Supplier",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleekg").select2({
+        placeholder: "Permendagri 108",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleekd").select2({
+        placeholder: "Kode Barang",
+        allowClear: true
+    });
+</script>
+<script>
+    $(".js-example-placeholder-singleejp").select2({
+        placeholder: "Jenis Pengadaaan",
+        allowClear: true
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#example2').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'excel', 'pdf'
+            ],
+            "scrollX": true,
+            "scrollX": true
+        });
+    });
+</script>
+
+<!-- <script>
+    $(document).ready(function() {
+        $('#khusus').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'excel', 'pdf'
+            ],
+            "responsive": true,
+            "deferRender": true,
+            "processing": true,
+            "serverSide": true,
+            "ajax": "load_data.php"
+        });
+    }); -->
+</script>
+
+<script type="text/javascript">
+    var table;
+    $(document).ready(function() {
+
+        //datatables
+        table = $('#table').DataTable({
+            lengthMenu: [
+                [10, 25, 50, -1],
+                ['10 rows', '25 rows', '50 rows', 'Show all']
+            ],
+
+            "processing": true,
+            "serverSide": true,
+            // dom: 'Bfrtip',
+            // dom: 'Blfrtip',
+            // buttons: [
+            //     'excel', 'pdf'
+            // ],
+            "responsive": true,
+            "order": [],
+
+            "ajax": {
+                "url": "<?php echo site_url('adminpanel/barang/get_data_barang') ?>",
+                "type": "POST"
+            },
+
+
+            "columnDefs": [{
+                "targets": [0],
+                "orderable": false,
+            }, ],
+
+        });
+
+    });
+</script>
+<script type="text/javascript">
+    var table;
+    $(document).ready(function() {
+
+        //datatables
+        table = $('#tableiv').DataTable({
+            lengthMenu: [
+                [10, 25, 50, -1],
+                ['10 rows', '25 rows', '50 rows', 'Show all']
+            ],
+            "processing": true,
+            "serverSide": true,
+            // dom: 'Bfrtip',
+            // dom: 'Blfrtip',
+            // buttons: [
+            //     'excel', 'pdf'
+            // ],
+            "responsive": true,
+            "order": [],
+
+            "ajax": {
+                "url": "<?php echo site_url('adminpanel/inventaris/get_data_inventaris') ?>",
+                "type": "POST"
+            },
+
+
+            "columnDefs": [{
+                "targets": [0],
+                "orderable": false,
+            }, ],
+
+        });
+
+    });
+</script>
+<?php
+$ses   = $this->session->userdata('status');
+if (isset($ses) && isset($ses) != '') { ?>
+    <script>
+        Swal.fire({
+            title: '<?php echo $this->session->userdata('status'); ?>',
+            icon: '<?php echo $this->session->userdata('status_code'); ?>'
+        }).then(function() {
+            // redirect('adminpanel/menu')
+        });
+    </script>
+<?php $this->session->unset_userdata('status');
+} ?>
+
+<?php
+$sest   = $this->session->userdata('statust');
+if (isset($sest) && isset($sest) != '') { ?>
+    <script>
+        Swal.fire({
+            title: '<?php echo $this->session->userdata('statust'); ?>',
+            icon: '<?php echo $this->session->userdata('statust_code'); ?>'
+        }).then(function() {
+            // redirect('adminpanel/menu')
+        });
+    </script>
+<?php $this->session->unset_userdata('statust');
+} ?>
+
+<script>
+    $('.form-check-input').on('click', function() {
+        const menuId = $(this).data('menu');
+        const roleId = $(this).data('role');
+        $.ajax({
+            url: "<?= base_url('adminpanel/admin/changeaccess'); ?>",
+            type: 'post',
+            data: {
+                menuId: menuId,
+                roleId: roleId
+            },
+            success: function() {
+                document.location.href = "<?= base_url('adminpanel/admin/akses_menu/') ?>" + roleId;
+            }
+        })
+
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $(window).keydown(function(event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                return false;
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        // Mendengarkan perubahan pada input harga
+        $('#harga, #jumlah').on('input', function() {
+            // Mengambil nilai dari input jumlah dan harga
+            var jumlah = parseFloat($('#jumlah').val()) || 0;
+            var harga = parseFloat($('#harga').val()) || 0;
+
+            // Menghitung total
+            var total = jumlah * harga;
+
+            // Mengisi nilai total
+            $('#total').val(total);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#barang').change(function() {
+            var selectedStok = $(this).find(':selected').data('stok'); // Mendapatkan nilai stok dari opsi yang dipilih
+            var selectedHarga = $(this).find(':selected').data('harga'); // Mendapatkan nilai harga dari opsi yang dipilih
+            var selectedSatuan = $(this).find(':selected').data('satuan');
+            var selectedNama = $(this).find(':selected').data('nabar');
+            $('#stok').val(selectedStok); // Mengatur nilai input stok
+            $('#harga').val(selectedHarga); // Mengatur nilai input harga
+            $('#satuan').val(selectedSatuan);
+            $('#nama_barang').val(selectedNama);
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#einventory').change(function() {
+            var selectedSatuanBaru = $(this).find(':selected').data('satuaneiv');
+            var namaeivbaru = $(this).find(':selected').data('namaeiv');
+            $('#satuaneiv').val(selectedSatuanBaru);
+            $('#namaeiv').val(namaeivbaru);
+
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#no_fakturmasuk').change(function() {
+            var selectedrekening = $(this).find(':selected').data('rekening'); // Mendapatkan nilai stok dari opsi yang dipilih
+            var selectedsumberdana = $(this).find(':selected').data('sumberdana'); // Mendapatkan nilai harga dari opsi yang dipilih
+            var selectedkegiatan = $(this).find(':selected').data('kegiatan');
+            var selectedperolehan = $(this).find(':selected').data('perolehan');
+            var selectedgudang = $(this).find(':selected').data('gudang');
+            $('#rekening_pencatatan').val(selectedrekening); // Mengatur nilai input stok
+            // $('#harga').val(selectedHarga); // Mengatur nilai input harga
+            $('#sumberdana').val(selectedsumberdana);
+            $('#kegiatan').val(selectedkegiatan);
+            $('#perolehan').val(selectedperolehan);
+            $('#gudang').val(selectedgudang);
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+
+        function checkStockAndDisableButton() {
+            var stockValue = $('#stok').val();
+            if (stockValue <= 0) {
+                $('#submitButton').prop('disabled', true);
+            } else {
+                $('#submitButton').prop('disabled', false);
+            }
+        }
+
+
+        checkStockAndDisableButton();
+
+
+        $('#stok').on('click', function() {
+
+            checkStockAndDisableButton();
+        });
+    });
+</script>
+
+
+
+<script>
+    function tampilkanBarang() {
+        let kode = document.getElementsByName('barang[]')[0].value;
+        let namaBarang = document.getElementsByName('nama_barang[]')[0].value;
+        let jumlah = document.getElementsByName('jumlah[]')[0].value;
+        let harga = document.getElementsByName('harga[]')[0].value;
+        let total = document.getElementsByName('total[]')[0].value;
+        let satuan = document.getElementsByName('satuan[]')[0].value;
+        let uraian = document.getElementsByName('permendagri[]')[0].value;
+        let expired = document.getElementsByName('expired[]')[0].value;
+        let batch = document.getElementsByName('batch[]')[0].value;
+        let tkdn = document.getElementsByName('tkdn[]')[0].value;
+        let kodeiv = document.getElementsByName('einventaris[]')[0].value;
+        let namaeiv = document.getElementsByName('namaeiv[]')[0].value;
+        let satuaniv = document.getElementsByName('satuan_einventory[]')[0].value;
+        selectedValue = document.getElementById('barang').value;
+        let tbody = document.getElementById('tbody_barang');
+
+        let row = document.createElement('tr');
+
+        inputKode.addEventListener('input', function() {
+            kode = inputKode.value;
+        });
+        let cellInputKode = document.createElement('td');
+        let inputKode = document.createElement('input');
+        inputKode.type = 'text';
+        inputKode.name = 'input_kode_barang[]';
+        inputKode.value = kode;
+        cellInputKode.appendChild(inputKode);
+
+        let cellInputNama = document.createElement('td');
+        let inputNama = document.createElement('input');
+        inputNama.type = 'text';
+        inputNama.name = 'input_nama_barang[]';
+        inputNama.value = namaBarang;
+        cellInputNama.appendChild(inputNama);
+
+
+        let cellInputJumlah = document.createElement('td');
+        let inputJumlah = document.createElement('input');
+        inputJumlah.type = 'number';
+        inputJumlah.name = 'input_jumlah[]';
+        inputJumlah.value = jumlah;
+        cellInputJumlah.appendChild(inputJumlah);
+
+        let cellInputHarga = document.createElement('td');
+        let inputHarga = document.createElement('input');
+        inputHarga.type = 'number';
+        inputHarga.name = 'input_harga[]';
+        inputHarga.value = harga;
+        cellInputHarga.appendChild(inputHarga);
+
+        let cellInputTotal = document.createElement('td');
+        let inputTotal = document.createElement('input');
+        inputTotal.type = 'number';
+        inputTotal.name = 'input_total[]';
+        inputTotal.value = total;
+        cellInputTotal.appendChild(inputTotal);
+
+
+        let cellInputSatuan = document.createElement('td');
+        let inputSatuan = document.createElement('input');
+        inputSatuan.type = 'text';
+        inputSatuan.name = 'input_satuan[]';
+        inputSatuan.value = satuan;
+        cellInputSatuan.appendChild(inputSatuan);
+
+
+        let cellInputUraian = document.createElement('td');
+        let inputUraian = document.createElement('input');
+        inputUraian.type = 'text';
+        inputUraian.name = 'input_uraian[]';
+        inputUraian.value = uraian;
+        cellInputUraian.appendChild(inputUraian);
+
+        let cellInputExpired = document.createElement('td');
+        let inputExpired = document.createElement('input');
+        inputExpired.type = 'date';
+        inputExpired.name = 'input_expired[]';
+        inputExpired.value = expired;
+        cellInputExpired.appendChild(inputExpired);
+
+        let cellInputBatch = document.createElement('td');
+        let inputBatch = document.createElement('input');
+        inputBatch.type = 'text';
+        inputBatch.name = 'input_batch[]';
+        inputBatch.value = batch;
+        cellInputBatch.appendChild(inputBatch);
+
+        let cellInputTkdn = document.createElement('td');
+        let inputTkdn = document.createElement('input');
+        inputTkdn.type = 'text';
+        inputTkdn.name = 'input_tkdh[]';
+        inputTkdn.value = tkdn;
+        cellInputTkdn.appendChild(inputTkdn);
+
+        let cellInputKodeiv = document.createElement('td');
+        let inputKodeiv = document.createElement('input');
+        inputKodeiv.type = 'text';
+        inputKodeiv.name = 'input_kodeiv[]';
+        inputKodeiv.value = kodeiv;
+        cellInputKodeiv.appendChild(inputKodeiv);
+
+
+        let cellInputNamaeiv = document.createElement('td');
+        let inputNamaeiv = document.createElement('input');
+        inputNamaeiv.type = 'text';
+        inputNamaeiv.name = 'input_namaeiv[]';
+        inputNamaeiv.value = namaeiv;
+        cellInputNamaeiv.appendChild(inputNamaeiv);
+
+        let cellInputSatuaniv = document.createElement('td');
+        let inputSatuaniv = document.createElement('input');
+        inputSatuaniv.type = 'text';
+        inputSatuaniv.name = 'input_satuaniv[]';
+        inputSatuaniv.value = satuaniv;
+        cellInputSatuaniv.appendChild(inputSatuaniv);
+
+        row.appendChild(cellInputKode);
+        row.appendChild(cellInputNama);
+
+        row.appendChild(cellInputJumlah);
+        row.appendChild(cellInputHarga);
+
+        row.appendChild(cellInputTotal);
+        row.appendChild(cellInputSatuan);
+
+        row.appendChild(cellInputUraian);
+        row.appendChild(cellInputExpired);
+
+        row.appendChild(cellInputBatch);
+        row.appendChild(cellInputTkdn);
+
+        row.appendChild(cellInputKodeiv);
+        row.appendChild(cellInputNamaeiv);
+
+        row.appendChild(cellInputSatuaniv);
+
+        tbody.appendChild(row);
+
+        $('#barang').val(null).trigger('change');
+        $('#permendagri').val(null).trigger('change');
+        $('#einventory').val(null).trigger('change');
+        $('#tkdn').val(null).trigger('change');
+        $('#total').val(null).trigger('change');
+        $('#jumlah').val(null).trigger('change');
+        $('#batch').val(null).trigger('change');
+        $('#expired').val(null).trigger('change');
+
+    }
+</script>
+<script>
+    document.querySelector('form').addEventListener('submit', function() {
+        // Pastikan input kode sudah terisi sebelum form disubmit
+        if (inputKode.value == '') {
+            alert('Kode barang harus diisi!');
+            return false;
+        }
+    });
+</script>
+</body>
+
+</html>
