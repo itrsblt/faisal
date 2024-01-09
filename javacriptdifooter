@@ -419,9 +419,7 @@ if (isset($sest) && isset($sest) != '') { ?>
 
         let row = document.createElement('tr');
 
-        inputKode.addEventListener('input', function() {
-            kode = inputKode.value;
-        });
+       
         let cellInputKode = document.createElement('td');
         let inputKode = document.createElement('input');
         inputKode.type = 'text';
