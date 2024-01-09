@@ -414,7 +414,7 @@ if (isset($sest) && isset($sest) != '') { ?>
         let kodeiv = document.getElementsByName('einventaris[]')[0].value;
         let namaeiv = document.getElementsByName('namaeiv[]')[0].value;
         let satuaniv = document.getElementsByName('satuan_einventory[]')[0].value;
-        selectedValue = document.getElementById('barang').value;
+     
         let tbody = document.getElementById('tbody_barang');
 
         let row = document.createElement('tr');
